@@ -8,6 +8,7 @@ data/dvb-scan
 .cproject
 .project
 .settings
+.metadata
 
 *.pyc
 .*.sw[op]
