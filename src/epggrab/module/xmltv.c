@@ -650,7 +650,7 @@ static void _xmltv_load_grabbers ( void )
   outlen = spawn_and_store_stdout(XMLTV_FIND, NULL, &outbuf);
 
   /* Process */
-  if ( outlen > 0 && 1 == 2) {
+  if ( outlen > 0 ) {
     tvhlog(LOG_INFO, "epggrab", "xmltv - parsing %s output:\n%s", XMLTV_FIND, outbuf);
     p = n = i = 0;
     while ( i < outlen ) {
