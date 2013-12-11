@@ -6,6 +6,7 @@ src/version.c
 data/dvb-scan
 
 libav_static
+libhdhomerun_static
 
 .cproject
 .project
