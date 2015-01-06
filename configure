@@ -180,7 +180,7 @@ int test(void)
   iconv_t ic = iconv_open("ASCII", "ASCII");
   return 0;
 }
-' -liconv
+' 
 
 #
 # Python

@@ -39,7 +39,7 @@ else
 LDFLAGS += -ldl -lpthread -lm
 endif
 ifeq ($(CONFIG_LIBICONV),yes)
-LDFLAGS += -liconv
+LDFLAGS += 
 endif
 ifeq ($(PLATFORM), darwin)
 LDFLAGS += -framework CoreServices
